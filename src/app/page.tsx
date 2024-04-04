@@ -85,7 +85,7 @@ export default function Home() {
 
           <label className="block">
             <span className="flex flex-row justify-between text-md font-medium text-DGcyan">
-              Number of People <span id="pplSpan" className="invisible text-red-400 peer-invalid:visible">Can't be Zero</span>
+              Number of People <span id="pplSpan" className="invisible text-red-400 peer-invalid:visible">Can{"'"}t be Zero</span>
             </span>
             <span className="absolute flex items-center my-5 mx-2">
               {personComponent
