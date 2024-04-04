@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors:{
+    //Strong Cyan
+        Scyan: 'hsl(172, 67%, 45%)',
+    //Very Dark Cyan
+        VDcyan: 'hsl(183, 100%, 15%)',
+     //Dark Gray Cyan
+        DGcyan: 'hsl(186, 14%, 43%)',
+     //Grayish Cyan
+        Gcyan: 'hsl(184, 14%, 56%)',
+     //Light Grayish Cyan
+        LGcyan: 'hsl(185, 41%, 84%)',
+    //Very Light Grayish Cyan
+        VLGcyan: 'hsl(189, 41%, 97%)'
+      }
     },
   },
   plugins: [],
